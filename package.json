@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/imzacm/ZMS/issues"
   },
-  "homepage": "https://github.com/imzacm/ZMS#readme"
+  "homepage": "https://github.com/imzacm/ZMS#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.6"
+  }
 }
