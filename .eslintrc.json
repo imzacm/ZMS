@@ -1,0 +1,37 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "quotes": ["error", "single"],
+    "semi": ["error", "never"],
+    "no-console": ["error", {"allow": ["error"]}],
+    "max-len": ["error", 80],
+    "getter-return": ["error", {"allowImplicit": false}],
+    "valid-jsdoc": "error",
+    "accessor-pairs": "error",
+    "block-scoped-var": "error",
+    "class-methods-use-this": "error",
+    "curly": "error",
+    "default-case": "error",
+    "guard-for-in": "error",
+    "eqeqeq": "error",
+    "no-alert": "error",
+    "no-eq-null": "error",
+    "no-eval": "error",
+    "no-implied-eval": "error",
+    "no-invalid-this": "error",
+    "no-multi-str": "error",
+    "no-new": "error",
+    "no-return-assign": "error",
+    "no-return-await": "error",
+    "strict": "error"
+  }
+}
