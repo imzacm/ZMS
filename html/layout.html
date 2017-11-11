@@ -3,18 +3,21 @@
   <head>
     <meta charset="UTF-8">
     <title>${TITLE}</title>
-    <link rel="stylesheet" href="/public/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
+      <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">ZMS</a>
+      </nav>
       <div class="row">
         <div class="col-12">
           ${CONTENT}
         </div>
       </div>
     </div>
-    <script src="/public/jquery/dist/jquery.min.js"></script>
-    <script src="/public/popper.js/dist/umd/popper.min.js"></script>
-    <script src="/public/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
