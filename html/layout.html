@@ -3,21 +3,26 @@
   <head>
     <meta charset="UTF-8">
     <title>${TITLE}</title>
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" /><!-- Node module doesn't work properly for some reason -->
+    <link rel="stylesheet" href="/node_modules/froala-editor/css/froala_editor.pkgd.min.css"/>
+    <link rel="stylesheet" href="/node_modules/froala-editor/css/froala_style.min.css"/>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
   </head>
   <body>
     <div class="container-fluid">
       <nav class="navbar navbar-dark bg-dark">
         <a class="navbar-brand" href="#">ZMS</a>
       </nav>
+      <br>
       <div class="row">
         <div class="col-12">
           ${CONTENT}
         </div>
       </div>
     </div>
-    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/node_modules/froala-editor/js/froala_editor.pkgd.min.js"></script>
   </body>
 </html>

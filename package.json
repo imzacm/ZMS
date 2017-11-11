@@ -18,6 +18,7 @@
   "homepage": "https://github.com/imzacm/ZMS#readme",
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
+    "froala-editor": "^2.7.1",
     "jquery": "^3.2.1",
     "popper.js": "^1.12.6"
   }

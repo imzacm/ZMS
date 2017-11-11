@@ -3,6 +3,7 @@ const routes = {},
   render = require('./render'),
   fs = require('fs'),
   path = require('path'),
+  http = require('http'),
   mimeType = {
     '.ico': 'image/x-icon',
     '.html': 'text/html',
@@ -21,15 +22,6 @@ const routes = {},
   }
 
 Object.assign(routes, require('./routes/root'))
-
-let http = null
-
-if (process.env.NODE_ENV === 'production') {
-  http = require('https')
-}
-else {
-  http = require('http')
-}
 
 const server = http.createServer(requestHandler)
 
